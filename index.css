@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d0b1b8;
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(254, 221, 221);
+    height: 70vh;
+    /* width: 80vw; */
+margin: 0px auto;
+    max-width: 800px;
+    padding: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.name{
+    display: flex;
+    margin: 30px 0px;
+    justify-content: space-between;
+   
+
+}
+
+.email_class{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+
+}
+
+.pin_add{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+
+.date_dob{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+label, select{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn{
+  font-size: 20px;
+  
+}
+
+.btn:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font: bold;
+}
+
+
+@media only screen and (
+    max-width: 635px)
+    {
+
+        .container{
+            display: grid;
+            grid-column:auto;
+
+        }
+       
+    }
+    
+
+
